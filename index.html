@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+    <title>Jheno's Machine Learing Project Showcase</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+
+        header {
+            text-align: center;
+            padding: 2rem;
+            background-color: #222;
+            color: white;
+        }
+
+        .projects {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 2rem;
+            gap: 2rem;
+        }
+
+        .card {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            max-width: 340px;
+            flex: 1 1 300px;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .card img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+        }
+
+        .card-body {
+            padding: 1rem;
+        }
+
+        .card-title {
+            font-size: 1.2rem;
+            margin: 0 0 0.5rem;
+            font-weight: bold;
+        }
+
+        .card-desc {
+            font-size: 0.95rem;
+            margin-bottom: 1rem;
+        }
+
+        .card a {
+            text-decoration: none;
+            color: #007BFF;
+            font-weight: bold;
+        }
+
+        @media (max-width: 768px) {
+            .projects {
+                padding: 1rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Jheno's Project Showcase</h1>
+        <p>Machine Learning, Mobile & Web Projects Documentation</p>
+    </header>
+
+    <section class="projects">
+
+        <div class="card">
+            <img src="https://raw.githubusercontent.com/Senpaixyz/facemask-detection-system/refs/heads/master/screenshots/application-interface.png"
+                alt="Facemask Detector" />
+            <div class="card-body">
+                <div class="card-title">Facemask Detection System</div>
+                <div class="card-desc">Real-time face mask detection using OpenCV and TensorFlow.</div>
+                <a href="https://github.com/Senpaixyz/facemask-detection-system">View Project</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="https://raw.githubusercontent.com/Senpaixyz/AnomalyDetection-WebApplication/refs/heads/master/static/screenshots/AttackSimulation_Moment-severe.jpg"
+                alt="Anomaly Detection" />
+            <div class="card-body">
+                <div class="card-title">Anomaly Detection Web App</div>
+                <div class="card-desc">Detect unusual patterns in uploaded datasets via a clean Flask interface.</div>
+                <a href="https://github.com/Senpaixyz/AnomalyDetection-WebApplication">View Project</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="https://raw.githubusercontent.com/Senpaixyz/Spam-Message-Classifier/refs/heads/master/images/landingpage.PNG"
+                alt="Spam Classifier" />
+            <div class="card-body">
+                <div class="card-title">Spam Message Classifier</div>
+                <div class="card-desc">A machine learning model that filters spam using NLP and logistic regression.
+                </div>
+                <a href="https://github.com/Senpaixyz/Spam-Message-Classifier">View Project</a>
+            </div>
+        </div>
+
+
+        <div class="card">
+            <img src="https://raw.githubusercontent.com/Senpaixyz/dr-tomato-react-gcp/main/1686379204502.jpg"
+                alt="Dr. Tomato" />
+            <div class="card-body">
+                <div class="card-title">Dr. Tomato - React + GCP</div>
+                <div class="card-desc">Identify tomato leaf diseases using a React frontend and GCP ML backend.</div>
+                <a href="https://github.com/Senpaixyz/dr-tomato-react-gcp">View Project</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="https://raw.githubusercontent.com/Senpaixyz/flask-linear-regression/refs/heads/master/images/capture.PNG"
+                alt="Linear Regression" />
+            <div class="card-body">
+                <div class="card-title">Flask Linear Regression</div>
+                <div class="card-desc">A small web app showing how linear regression works with user input.</div>
+                <a href="https://github.com/Senpaixyz/flask-linear-regression">View Project</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="https://raw.githubusercontent.com/Senpaixyz/Movie-Review-Classifier-Web-Application/refs/heads/master/images/negative.PNG"
+                alt="Movie Review Classifier" />
+            <div class="card-body">
+                <div class="card-title">Movie Review Classifier</div>
+                <div class="card-desc">Sentiment analysis of movie reviews using NLP and ML on Flask.</div>
+                <a href="https://github.com/Senpaixyz/Movie-Review-Classifier-Web-Application">View Project</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="https://raw.githubusercontent.com/Senpaixyz/faceEmotion-classifier/refs/heads/master/images/predicted.PNG"
+                alt="Face Emotion Classifier" />
+            <div class="card-body">
+                <div class="card-title">Face Emotion Classifier</div>
+                <div class="card-desc">Detects human facial emotions in real-time using CNN and OpenCV.</div>
+                <a href="https://github.com/Senpaixyz/faceEmotion-classifier">View Project</a>
+            </div>
+        </div>
+
+    </section>
+
+    <br />
+
+    <!-- Visual Project: Pose Estimation -->
+    <section style="padding: 3rem 1rem; background-color: #ffffff;">
+        <div style="max-width: 1100px; margin: 0 auto; text-align: center;">
+            <h2>Pose Estimation in Occlusion</h2>
+            <p style="margin-bottom: 2rem;">
+                End-to-end occlusion-aware pose analysis using YOLOv11n-pose for keypoint detection, DeepSORT for
+                identity tracking, and GCN for predicting missing keypoints.
+            </p>
+            <div style="display: flex; flex-wrap: wrap; gap: 1rem; justify-content: center;">
+                <a href="images/gc/gcn-analysis-reports.png" target="_blank">
+                    <img src="images/gcn/gcn-analysis-reports.png" alt="GCN Reports MPJPE/PCK"
+                        style="width: 100%; max-width: 300px; border-radius: 8px;" />
+                </a>
+                <a href="images/gcn/gcn-preprocessing-yolo-v8.png" target="_blank">
+                    <img src="images/gcn/gcn-preprocessing-yolo-v8.png" alt="YOLOv8 Keypoint Extraction"
+                        style="width: 100%; max-width: 300px; border-radius: 8px;" />
+                </a>
+                <a href="images/gcn/gcn-tracker-using-deepsort-algorithm.png" target="_blank">
+                    <img src="images/gcn/gcn-tracker-using-deepsort-algorithm.png" alt="DeepSORT Tracker Output"
+                        style="width: 100%; max-width: 300px; border-radius: 8px;" />
+                </a>
+                <a href="images/gcn/gcn-preprocessing-building-graph.png" target="_blank">
+                    <img src="images/gcn/gcn-preprocessing-building-graph.png" alt="GCN Graph Construction"
+                        style="width: 100%; max-width: 300px; border-radius: 8px;" />
+                </a>
+                <a href="images/gcn/gcn-training.png" target="_blank">
+                    <img src="images/gcn/gcn-training.png" alt="GCN Training Loss Curve"
+                        style="width: 100%; max-width: 300px; border-radius: 8px;" />
+                </a>
+                <a href="images/gcn/gcn-visualization.png" target="_blank">
+                    <img src="images/gcn/gcn-visualization.png" alt="GCN Frame-wise Visualization"
+                        style="width: 100%; max-width: 300px; border-radius: 8px;" />
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Visual Project: TrafficBot Rules AI -->
+    <section style="padding: 3rem 1rem; background-color: #f5f5f5;">
+        <div style="max-width: 1100px; margin: 0 auto; text-align: center;">
+            <h2>TrafficBot Rules AI</h2>
+            <p style="margin-bottom: 2rem;">
+                A bilingual legal assistant for traffic regulations using sentence transformers, FAISS similarity
+                search, and multiple LLMs like Flan-T5, Falcon 7B, and Mistral.
+            </p>
+            <div style="display: flex; flex-wrap: wrap; gap: 1rem; justify-content: center;">
+                <a href="images/tbot/traffic-bot-using-google-flat-t5-bot.png" target="_blank">
+                    <img src="images/tbot/traffic-bot-using-google-flat-t5-bot.png" alt="Traffic Bot - Flan T5 XL"
+                        style="width: 100%; max-width: 300px; border-radius: 8px;" />
+                </a>
+                <a href="images/tbot/traffic-bot-using-falcon-7b.png" target="_blank">
+                    <img src="images/tbot/traffic-bot-using-falcon-7b.png" alt="Traffic Bot - Falcon 7B"
+                        style="width: 100%; max-width: 300px; border-radius: 8px;" />
+                </a>
+                <a href="images/tbot/traffic-bot-using-mistral-algorithm.png" target="_blank">
+                    <img src="images/tbot/traffic-bot-using-mistral-algorithm.png" alt="Traffic Bot - Mistral 7B"
+                        style="width: 100%; max-width: 300px; border-radius: 8px;" />
+                </a>
+                <a href="images/tbot/traffic-bot-tagalog-result-01.png" target="_blank">
+                    <img src="images/tbot/traffic-bot-tagalog-result-01.png" alt="Traffic Bot - Tagalog Output"
+                        style="width: 100%; max-width: 300px; border-radius: 8px;" />
+                </a>
+            </div>
+        </div>
+    </section>
+
+
+
+</body>
+
+</html>
